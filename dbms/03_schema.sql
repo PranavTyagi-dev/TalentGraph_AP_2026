@@ -1,4 +1,4 @@
--- TalentGraph application schema. Run once in an empty PostgreSQL database.
+
 BEGIN;
 
 CREATE TYPE "Role" AS ENUM ('RECRUITER', 'CANDIDATE', 'ADMIN');
